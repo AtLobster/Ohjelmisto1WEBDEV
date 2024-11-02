@@ -5,9 +5,8 @@
 }
 
 body {
-    font-family: 'Franklin Gothic', 'ITC Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-image: url('Wave.svg');
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: top center;
     background-attachment: fixed;
@@ -74,6 +73,7 @@ main {
 
 .hero h1 {
     font-size: 3em;
+    font-family: "Franklin Gothic Book";
     width: 300px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.2);
@@ -81,7 +81,7 @@ main {
     padding: 10px 20px;
     border-radius: 5px;
     margin: 0 auto;
-    display: inline-block;
+
 
 }
 
@@ -110,7 +110,7 @@ main {
     letter-spacing: 0.2px;
 }
 
-.products-grid {
+.products-layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
@@ -164,7 +164,7 @@ main {
     padding: 40px;
 }
 
-.contact-title {
+.contact-us {
     font-size: 2em;
     color: #ffffff;
     margin-bottom: 40px;
@@ -173,7 +173,7 @@ main {
     letter-spacing: 0.5px;
 }
 
-.contact-container {
+.contact-styling {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
