@@ -3,6 +3,8 @@ let endYear = parseInt(prompt("Kerro lopetusvuosi: "))
 
 let results = document.getElementById("target");
 
+
+
 for (let year = startYear; year <= endYear; year = year + 1) {
   let leapYear = (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
 
