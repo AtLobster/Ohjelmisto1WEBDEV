@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+    background-color: black;
+    color: #00ff00; /* Matrix green */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for ASCII style */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.matrix-layout {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.menu button {
+    background-color: black;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu button:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+.box {
+    border: 2px dashed #00ff00;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.ascii-art {
+    line-height: 1.5;
+    white-space: pre;
+    text-align: center;
+    color: #00ff00;
+}
