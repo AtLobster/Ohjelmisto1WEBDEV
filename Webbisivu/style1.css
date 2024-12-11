@@ -1,0 +1,14 @@
+
+
+body {
+    Font-family: 'Poppins', 'sans-serif';
+}
+
+body img {
+    max-width: 800px;
+    max-height: 600px;
+}
+
+.Franklin h1 {
+    font-family: "Franklin Gothic Book";
+}
